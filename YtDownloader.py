@@ -10,8 +10,8 @@ yd = yt.streams.get_highest_resolution()
 tipo = input("¿Es música (1) o vídeo (2)?\n")
 
 if tipo == "1":
-    yd.download('C:/Users/juanl/Music')
+    yd.download('') #Poner en el paréntesis la carpeta deseada si es música
 elif tipo == "2":
-    yd.download('C:/Users/juanl/Videos')
+    yd.download('') #Poner en el paréntesis la carpeta deseada si es un vídeo
 
 print("Se ha completado la descarga :)")
