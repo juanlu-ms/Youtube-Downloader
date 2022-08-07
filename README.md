@@ -1,2 +1,2 @@
-Este script sirve para descargar vídeos de Youtube.\n
+Este script sirve para descargar vídeos de Youtube. 
 Creado por juanlu-ms
