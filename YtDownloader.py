@@ -11,6 +11,7 @@ tipo = input("¿Es música (1) o vídeo (2)?\n")
 
 if tipo == "1":
     yd.download('') #Poner en el paréntesis la carpeta deseada si es música
+    Convertir('') #Para copnvertir el archivo MP4 a MP3
 elif tipo == "2":
     yd.download('') #Poner en el paréntesis la carpeta deseada si es un vídeo
 
