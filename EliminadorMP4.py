@@ -1,7 +1,7 @@
 import os
 import pathlib
 
-carpeta = "C:/Users/Juanlu/OneDrive/Música"
+carpeta = "C:/Users/juanl/OneDrive/Música"
 with os.scandir(carpeta) as ficheros:
     for fichero in ficheros:
         path = pathlib.Path(fichero.path)
