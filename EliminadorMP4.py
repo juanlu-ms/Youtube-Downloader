@@ -1,8 +1,8 @@
 import os
 import pathlib
+from Rutas import RUTA_MÚSICA
 
-carpeta = "C:/Users/juanl/OneDrive/Música"
-with os.scandir(carpeta) as ficheros:
+with os.scandir(RUTA_MÚSICA) as ficheros:
     for fichero in ficheros:
         path = pathlib.Path(fichero.path)
         if path.suffix == ".mp4":

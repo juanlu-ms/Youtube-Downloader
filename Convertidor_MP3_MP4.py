@@ -11,4 +11,4 @@ def Convertir (carpeta):
                 clip = mp.VideoFileClip(fichero.path)
                 clip.audio.write_audiofile(f'{path.stem}.mp3', bitrate="320k")
                 shutil.move(f'{path.stem}.mp3', 'C:/Users/juanl/OneDrive/Música')
-    print("Se han convertido los archivos :")
+    print("Se han convertido los archivos :)")
