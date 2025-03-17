@@ -1,3 +1,3 @@
-MUSICA = "C:/Users/juanlu/OneDrive/MUSICA"
+MUSICA = "Write/Here/Your/Music/Path"
 
-VIDEOS = "C:/Users/juanlu/OneDrive/VIDEOS"
+VIDEOS = "Write/Here/Your/Videos/Path"
